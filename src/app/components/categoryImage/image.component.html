@@ -1,0 +1,9 @@
+<div class="row">
+    <h3>List of Images</h3>
+    <div class="row">        
+		<div class="col-md-4" *ngFor = "let item of imagelist">
+			<img [src]="item.url" width="200" (click)="getimagedetails(item.imgid)" />
+			<div>{{item.name}} <a href="javascript:void(0)" (click)="getcontactdetails(item.imgid)" >View Details</a></div>
+		</div>        
+    </div>
+</div>

@@ -1,0 +1,15 @@
+{
+	"status": "success",
+	"data": [
+		{
+			"imgid" : 1,
+			"name": "IT Sector",
+			"company": "Cognizant Technology",
+			"address": "GTP, Bantala",
+			"city": "Kolkata",
+			"landmark": "Near Leather Complex",
+			"contactperson": "Shyam Mondal",
+			"designation": "Manager"
+		}
+	]
+}

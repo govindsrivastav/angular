@@ -1,0 +1,20 @@
+{
+	"status": "success",
+	"data": [
+		{
+			"id": 1,
+			"name": "Food",
+			"url": "../assets/images/food1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Animal",
+			"url": "../assets/images/animal1.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Flower",
+			"url": "../assets/images/flower1.jpg"
+		}
+	]
+}

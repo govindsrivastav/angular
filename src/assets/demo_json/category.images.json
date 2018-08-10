@@ -1,0 +1,23 @@
+{
+	"status": "success",
+	"data": [
+		{
+			"id": 1,
+			"imgid" : 1,
+			"name": "Food 1",
+			"url": "../assets/images/food1.jpg"
+		},
+		{
+			"id": 1,
+			"imgid" : 2,
+			"name": "Food 2",
+			"url": "../assets/images/food2.jpg"
+		},
+		{
+			"id": 1,
+			"imgid" : 3,
+			"name": "Food 3",
+			"url": "../assets/images/food3.jpg"
+		}
+	]
+}

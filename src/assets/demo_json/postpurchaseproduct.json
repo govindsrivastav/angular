@@ -1,0 +1,15 @@
+{
+	"message": "order placed",
+	"data": [
+		{
+			"typeid" : 1,
+			"imgid" : 1,
+			"name": "Fruit Cake",
+			"resolation": "800 x 600",
+			"height": "600",
+			"width": "800",
+			"size": "20KB",
+			"price": "250"
+		}
+	]
+}

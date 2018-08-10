@@ -1,0 +1,10 @@
+<div class="thumbnail">
+	<h3>List of Category</h3>
+    <div class="row">        
+		<div class="col-md-4" *ngFor = "let item of categories">
+			<img [src]="item.url" width="200" (click)="getimagecategory(item.id)" />
+			<div>{{item.name}}</div>
+		</div>        
+    </div>
+    
+</div>

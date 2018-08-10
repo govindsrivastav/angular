@@ -1,0 +1,33 @@
+<div class="col-md-10 col-md-offset-1 row">
+   <div class="panel panel-default">
+		<div class="panel-heading">Details Product Information</div>
+		<form #form="ngForm">
+		<div class="panel-body">
+			<table class="table table-bordered">                    
+				<tr>
+					<th>Select</th>
+					<th>Name</th>
+					<th>Resolation</th>
+					<th>Height</th>
+					<th>Width</th>
+					<th>Size</th>
+					<th>Price</th>
+				</tr>
+				<tr *ngFor = "let item of details">
+					<td><input type="radio" name="imagetype" ngModel [value]="item" /></td>
+					<td>{{item.name}}</td>
+					<td>{{item.resolation}}</td>
+					<td>{{item.height}}</td>
+					<td>{{item.width}}</td>
+					<td>{{item.size}}</td>
+					<td>{{item.price}}</td>
+				</tr>
+			</table>
+		</div>
+		</form>
+		<div class="col-md-3">
+			<button type="button" (click)="addToCart(form.value)" class="btn btn-primary btn-block"><span class ="glyphicon glyphicon-ok-sign"></span>Add To Cart</button>
+			<span class="alert-danger" *ngIf="isSelected">Please select any of image</span>
+		</div>
+	</div>    
+</div>

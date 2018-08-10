@@ -1,0 +1,45 @@
+{
+	"status": "success",
+	"data": [
+		{
+			"typeid" : 1,
+			"imgid" : 1,
+			"name": "Fruit Cake",
+			"resolation": "800 x 600",
+			"height": "600",
+			"width": "800",
+			"size": "20KB",
+			"price": "250"
+		},
+		{
+			"typeid" : 2,
+			"imgid" : 1,
+			"name": "Butter Cake",
+			"resolation": "950 x 650",
+			"height": "650",
+			"width": "950",
+			"size": "23KB",
+			"price": "275"
+		},
+		{
+			"typeid" : 3,
+			"imgid" : 1,
+			"name": "Eggless Cake",
+			"resolation": "750 x 650",
+			"height": "650",
+			"width": "750",
+			"size": "21KB",
+			"price": "350"
+		},
+		{
+			"typeid" : 4,
+			"imgid" : 1,
+			"name": "Plain Cake",
+			"resolation": "784 x 690",
+			"height": "690",
+			"width": "784",
+			"size": "19KB",
+			"price": "420"
+		}
+	]
+}
